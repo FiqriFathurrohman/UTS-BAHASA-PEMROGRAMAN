@@ -1,0 +1,19 @@
+@startuml
+start
+
+:menu();
+
+if (pilihan == 1) then (true)
+    :tambah();
+elseif (pilihan == 2) then (true)
+    :kurang();
+elseif (pilihan == 3) then (true)
+    :kali();
+elseif (pilihan == 4) then (true)
+    :bagi();
+else (false)
+    :cout << "Pilihan tidak valid." << endl;
+endif
+
+stop
+@enduml
