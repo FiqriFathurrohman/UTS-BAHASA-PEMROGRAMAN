@@ -1,0 +1,73 @@
+@startuml
+title Bisnis Ikan Cupang
+
+start
+
+:Memulai Bisnis;
+:Model Bisnis;
+:Produk Utama: Ikan Cupang;
+:Layanan Tambahan;
+:Sumber Pendapatan;
+
+if (Struktur Organisasi Sudah Dibuat?) then
+    :Struktur Organisasi;
+    :Produksi;
+    :Pemasaran;
+    :Penjualan;
+    :Layanan Pelanggan;
+else
+    :Membuat Struktur Organisasi;
+endif
+
+if (Proses Bisnis Sudah Ditetapkan?) then
+    :Proses Bisnis;
+    :Breeding;
+    :Pembesaran;
+    :Karantina dan Kesehatan;
+    :Pemasaran dan Penjualan;
+    :Pengiriman;
+else
+    :Menetapkan Proses Bisnis;
+endif
+
+if (Tujuan dan Strategi Sudah Ditentukan?) then
+    :Tujuan dan Strategi;
+    :Visi;
+    :Misi;
+    :Tujuan Jangka Pendek;
+    :Tujuan Jangka Panjang;
+    :Strategi;
+else
+    :Menetapkan Tujuan dan Strategi;
+endif
+
+if (Analisis Pasar Sudah Dilakukan?) then
+    :Pasar dan Persaingan;
+    :Target Pasar;
+    :Tren Pasar;
+    :Kompetisi;
+else
+    :Melakukan Analisis Pasar;
+endif
+
+if (Perencanaan Keuangan Telah Dilakukan?) then
+    :Keuangan dan Operasi;
+    :Investasi Awal;
+    :Pendapatan;
+    :Pengeluaran;
+    :Metrik Utama;
+else
+    :Melakukan Perencanaan Keuangan;
+endif
+
+if (Kepatuhan Regulasi Telah Diperiksa?) then
+    :Regulasi dan Kepatuhan;
+    :Peraturan Pemerintah;
+    :Standar Kualitas;
+    :Kepatuhan Lingkungan;
+else
+    :Memeriksa Kepatuhan Regulasi;
+endif
+
+stop
+@enduml
